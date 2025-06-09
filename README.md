@@ -52,3 +52,5 @@ export default function Home() {
     </main>
   );
 }
+OPENAI_API_KEY=sk-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
+.env.local
