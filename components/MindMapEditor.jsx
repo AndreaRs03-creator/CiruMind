@@ -1,6 +1,5 @@
 # CiruMind
 Simplificando la cirugía, un mapa a la vez.
-components/MindMapEditor.jsx
 import React from 'react';
 import ReactFlow from 'reactflow';
 import 'reactflow/dist/style.css';
