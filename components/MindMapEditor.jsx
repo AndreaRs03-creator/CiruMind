@@ -1,15 +1,17 @@
 # CiruMind
 Simplificando la cirugía, un mapa a la vez.
-import React from 'react';
-import ReactFlow from 'reactflow';
+'use client';
+import ReactFlow, { MiniMap, Controls, Background } from 'reactflow';
 import 'reactflow/dist/style.css';
 
-const MindMapEditor = ({ nodes = [], edges = [] }) => {
+export default function MindMapEditor({ nodes, edges }) {
   return (
     <div style={{ width: '100%', height: '500px' }}>
-      <ReactFlow nodes={nodes} edges={edges} fitView />
+      <ReactFlow nodes={nodes} edges={edges} fitView>
+        <MiniMap />
+        <Controls />
+        <Background />
+      </ReactFlow>
     </div>
   );
-};
-
-export default MindMapEditor;
+}
