@@ -1,4 +1,3 @@
-npx create-next-app@latest . --typescript
 {
   "name": "cirumind",
   "version": "0.1.0",
