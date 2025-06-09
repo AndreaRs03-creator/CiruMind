@@ -28,7 +28,7 @@ export default function Home() {
 
   return (
     <main className="p-6 max-w-5xl mx-auto">
-      <h1 className="text-3xl font-bold mb-4">🧠 MenteAbierta</h1>
+      <h1 className="text-3xl font-bold mb-4">🧠 CiruMind</h1>
       <p className="mb-4">Sube tu texto o documento para generar un mapa mental automáticamente.</p>
       <Textarea
         className="w-full mb-4"
